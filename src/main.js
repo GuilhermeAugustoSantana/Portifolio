@@ -8,7 +8,7 @@ addEventListener('click', (event) => {
 });
 
 const verificaClasse = (classe) => {
-  if (classe == 'html' || classe == 'javaScript' || classe == 'css' || classe == 'react') return true;
+  if (classe == 'html' || classe == 'javaScript' || classe == 'css' || classe == 'react' || classe == 'sql') return true;
   return false;
 }
 
